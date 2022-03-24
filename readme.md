@@ -29,12 +29,16 @@ Use a reutlizable component called Nav for pagination and the slice method to sh
 
 Services => Api.js , Local Storage
 
-
-
-
-
 ## Best Practices
 - PropTypes
 - default props
 - Destructuring
 - Manual Testing
+
+## Start up Project
+
+``` 
+npm install 
+
+```
+npm start
