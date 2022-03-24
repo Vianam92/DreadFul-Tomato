@@ -1,5 +1,5 @@
 const getApi = () => {
-  return fetch("./data/data.json")
+  return fetch("/data/data.json")
     .then((res) => res.json())
     .then((data) => {
       const results = data.entries.map((item, index) => {
