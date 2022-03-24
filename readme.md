@@ -39,7 +39,12 @@ Services => Api.js , Local Storage
 
 ``` 
 npm install 
+<<<<<<< HEAD
 ```
 
 ```
+=======
+```
+```
+>>>>>>> 5da2d718d971dcd17a2c0d96e687832ba19c2fa8
 npm start
