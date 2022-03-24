@@ -102,7 +102,7 @@ const Header = ({
 };
 
 Header.propTypes = {
-  isLocation: PropTypes.object,
+  isLocation: PropTypes.string,
   filterName: PropTypes.string,
   filterhandle: PropTypes.func,
   filterYear: PropTypes.string,

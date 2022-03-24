@@ -1,6 +1,6 @@
 ![](src/assets/componentes.png)
 
-## Retos iniciales para hacer la app
+## Initial challenges to make the app
 
 When I made the call to the Api I got a series of errors in the console (cors), I tried to solve it by placing after the fetch.
 
