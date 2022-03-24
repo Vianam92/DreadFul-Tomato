@@ -1,0 +1,96 @@
+.header{
+    background-color: black;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    color:white;
+    justify-content: space-around;
+    
+    &__img{
+        width: 150px;
+        object-fit: contain;
+        @media all and(min-width:768px){
+        margin-left: 70px;
+        }
+        
+    }
+}
+
+.nav{
+    margin-right: 0;
+    @media all and(min-width:768px){
+        margin-right: 70px;
+        }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin:0 3px;
+        padding:0 5px;
+        border-right: solid white 1px;
+        
+        &--login{
+            border-left: solid white 1px;
+            font-size: 0.7rem;
+            margin-top:4.5px;
+            padding-left:3px;
+            //height: 100%;
+        }
+        &--btn{
+            font-size: 0.7rem;
+            padding:2px;
+            margin-right: 3px;
+            width: 120px;
+            background-color: rgba(255, 0, 0, 0.788);
+            border-radius: 25px;
+            border:black solid 2px;
+            color: white;
+        }
+        &--link{
+            width: 15px;
+        }
+    }
+}
+
+.section-add{
+    display: flex;
+    flex-wrap: wrap;
+    &__div{
+        display: flex;
+        align-items: center;
+        padding:5px;
+        &--img{
+            width: 20px;
+            height: 20px;
+            padding:2px;
+        }
+        &--title{
+            margin-top:5px;
+            font-size: 0.8rem;
+            padding:2px;
+        }
+    }
+}
+
+.markRed{
+    background-color: rgba(255, 0, 0, 0.788);
+}
+
+a{
+    height: auto;
+    color:white;
+}
+
+.section-form{
+    width: 100%;
+}
+
+.filter{
+    transform: translateX(30px);
+    @media all and(min-width:1000px){
+    transform: translateX(130px);
+    }
+}
+

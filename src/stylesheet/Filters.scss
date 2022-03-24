@@ -1,0 +1,31 @@
+.form{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(179, 23, 23);
+width: 100%;
+height: 40px;
+&__input-name{
+    font-size: 0.8rem;
+    padding-left: 30px;
+    width: 70%;
+    height: 30px;
+    border-radius: 25px;
+}
+&__input-year{
+    width: 20%;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+&__search{
+    width: 12.5px;
+    transform: translateX(38px);
+    height: 12.5px;
+    @media all and(min-width:768px){
+        transform: translateX(52px); 
+    }
+    @media all and(min-width:1200px){
+        transform: translateX(68px); 
+    }
+}
+}
